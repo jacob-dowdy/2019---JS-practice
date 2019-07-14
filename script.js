@@ -1,5 +1,8 @@
+//simple functions to find years until someone retires
+
+// finds current age with hardcoded year
 function calculateAge(birthYear) {
-    return 2018 - birthYear;
+    return 2019 - birthYear;
 }
 
 var ageJohn = calculateAge(1990);
@@ -7,6 +10,7 @@ var ageMike = calculateAge(1948);
 var ageJane = calculateAge(1969);
 console.log(ageJohn, ageMike, ageJane);
 
+//uses calculateAge function to find current age and years until retirement
 function yearsUntilRetirement(year, firstName)
 {
     var age = calculateAge(year);
